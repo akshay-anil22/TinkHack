@@ -9,7 +9,7 @@ const SponsorLogo = ({ name, imageUrl }) => (
 
 function Sponsors() {
   return (
-    <div className="bg-slate-800 py-20 px-4">
+    <div id="sponsors" className="bg-slate-800 py-20 px-4">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-cyan-400 mb-4">Our Sponsors</h2>
         <p className="text-slate-300 mb-12">

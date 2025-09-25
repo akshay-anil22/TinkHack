@@ -15,7 +15,7 @@ const TimelineItem = ({ time, title, description }) => (
 
 function Timeline() {
   return (
-    <div className="bg-slate-900 py-20 px-4">
+    <div id="timeline" className="bg-slate-900 py-20 px-4">
       <div className="max-w-4xl mx-auto text-center mb-16">
         <h2 className="text-4xl font-bold text-cyan-400">Event Timeline</h2>
         <p className="text-slate-300 mt-2">Follow our schedule from registration to the final announcement.</p>

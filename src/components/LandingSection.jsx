@@ -2,7 +2,7 @@ import React from 'react';
 
 function Hero() {
   return (
-    <div className="bg-slate-900 text-white min-h-screen flex flex-col justify-center items-center text-center p-4">
+    <div  id="home" className="bg-slate-900 text-white min-h-screen flex flex-col justify-center items-center text-center p-4">
       <h1 className="text-5xl md:text-7xl font-extrabold mb-4">
         Innovate. Collaborate. Build.
       </h1>
