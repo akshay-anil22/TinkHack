@@ -10,9 +10,9 @@ function App() {
     <div>
       <LandingSection />
       <Overview />
-      {/* <Timeline />
+       <Timeline />
       <Sponsors />
-      <Contact /> */}
+      <Contact /> 
     </div>
   );
 }
