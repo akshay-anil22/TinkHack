@@ -1,6 +1,16 @@
 import React from 'react';
 
 
+import sbiLogo from '../assets/logos/GKV1_State Bank of India (SBI)-logobase.net.png';
+import southIndianBankLogo from '../assets/logos/GKV23_South Indian Bank-logobase.net.png';
+import beiLogo from '../assets/logos/GKV124_Bursa Efek Indonesia (BEI)-logobase.net.png';
+import kseiLogo from '../assets/logos/GKV125_KSEI (Kustodian Sentral Efek Indonesia)-logobase.net.png';
+import womFinanceLogo from '../assets/logos/GKV127_WOM Finance-logobase.net.png';
+import otoGroupLogo from '../assets/logos/GKV129_OTO Group-logobase.net.png';
+import indomobilFinanceLogo from '../assets/logos/GKV130_Indomobil Finance-logobase.net.png';
+import payNetLogo from '../assets/logos/GKV185_PayNet (Payments Network Malaysia)-logobase.net.png';
+
+
 const SponsorLogo = ({ name, imageUrl }) => (
   <div className="flex justify-center items-center p-4 bg-slate-700 rounded-lg">
     <img src={imageUrl} alt={`${name} Logo`} className="h-12 w-auto" />
@@ -16,14 +26,14 @@ function Sponsors() {
           We are incredibly grateful for the support of our partners who make this event possible.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-          <SponsorLogo name="Sponsor 1" imageUrl="https://placehold.co/200x100/FFF/000000?text=Sponsor+1" />
-          <SponsorLogo name="Sponsor 2" imageUrl="https://placehold.co/200x100/FFF/000000?text=Sponsor+2" />
-          <SponsorLogo name="Sponsor 3" imageUrl="https://placehold.co/200x100/FFF/000000?text=Sponsor+3" />
-          <SponsorLogo name="Sponsor 4" imageUrl="https://placehold.co/200x100/FFF/000000?text=Sponsor+4" />
-          <SponsorLogo name="Sponsor 5" imageUrl="https://placehold.co/200x100/FFF/000000?text=Sponsor+5" />
-          <SponsorLogo name="Sponsor 6" imageUrl="https://placehold.co/200x100/FFF/000000?text=Sponsor+6" />
-          <SponsorLogo name="Sponsor 7" imageUrl="https://placehold.co/200x100/FFF/000000?text=Sponsor+7" />
-          <SponsorLogo name="Sponsor 8" imageUrl="https://placehold.co/200x100/FFF/000000?text=Sponsor+8" />
+          <SponsorLogo name="State Bank of India" imageUrl={sbiLogo} />
+          <SponsorLogo name="South Indian Bank" imageUrl={southIndianBankLogo} />
+          <SponsorLogo name="Bursa Efek Indonesia" imageUrl={beiLogo} />
+          <SponsorLogo name="KSEI" imageUrl={kseiLogo} />
+          <SponsorLogo name="WOM Finance" imageUrl={womFinanceLogo} />
+          <SponsorLogo name="OTO Group" imageUrl={otoGroupLogo} />
+          <SponsorLogo name="Indomobil Finance" imageUrl={indomobilFinanceLogo} />
+          <SponsorLogo name="PayNet" imageUrl={payNetLogo} />
         </div>
       </div>
     </div>
