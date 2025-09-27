@@ -3,7 +3,7 @@
 
 This is the  responsive landing page for **TinkHack**, the flagship 36-hour hackathon by TinkerHub MEC. It's designed to inform, excite, and drive registrations for the event, showcasing all key information in a modern, single-page layout.
 
-**Live Demo:** [**https://tinkhack-mec.netlify.app/**](https://tinkhack-mec.netlify.app/) ---
+**Live Demo:** [**tink-hack-bice.vercel.app**](https://tink-hack-bice.vercel.app/) ---
 
 ## ✨ Features
 
