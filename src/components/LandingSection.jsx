@@ -1,8 +1,9 @@
 import React from 'react';
+import Countdown from 'react-countdown';
 
 function Hero() {
   return (
-    <div  id="home" className="bg-slate-900 text-white min-h-screen flex flex-col justify-center items-center text-center p-4">
+    <div  id="home" className="bg-slate-900 text-white min-h-screen flex flex-col justify-center items-center text-center p-4 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 animated-gradient">
       <h1 className="text-5xl md:text-7xl font-extrabold mb-4">
         Innovate. Collaborate. Build.
       </h1>
@@ -12,6 +13,9 @@ function Hero() {
       <button className="bg-cyan-500 hover:bg-cyan-600 text-slate-900 font-bold py-3 px-8 rounded-full text-lg transition duration-300">
         Register Now
       </button>
+
+      
+
     </div>
   );
 }
